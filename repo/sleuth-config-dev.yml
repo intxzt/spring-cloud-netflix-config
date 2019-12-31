@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cloud-ribbon-service
+
+server:
+  port: 8084
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
