@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cloud-ribbon-service
+    name: cloud-sleuth-service
 
 server:
   port: 8084
