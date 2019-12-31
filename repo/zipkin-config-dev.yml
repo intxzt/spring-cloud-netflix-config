@@ -1,6 +1,8 @@
 spring:
   application:
     name: cloud-zipkin-service
+  main:
+    allow-bean-definition-overriding: true
 
 server:
   port: 9411
