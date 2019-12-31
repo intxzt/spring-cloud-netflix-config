@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cloud-zipkin-service
+
+server:
+  port: 9411
+
+management:
+  metrics:
+    web:
+      server:
+        request:
+          autotime:
+            enabled: false #Whether to automatically time web server requests
