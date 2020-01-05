@@ -6,3 +6,7 @@ management:
   endpoint:
     health:
       show-details: always
+
+eureka:
+  instance:
+    prefer-ip-address: true
