@@ -10,3 +10,9 @@ zuul:
     api-1:
       path: /admin/**
       serviceId: cloud-admin-service
+    api-2:
+      path: /ribbon/**
+      serviceId: cloud-ribbon-service
+    api-3:
+      path: /feign/**
+      serviceId: cloud-feign-service
